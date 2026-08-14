@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zainab Khalil</title>
+<meta name="description" content="Zainab Khalil, full-stack software engineer.">
+<link rel="icon" type="image/svg+xml" href="Why Not Have Fun And Professional At The Same Time With Notion New Feature.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#28a2fa;
+    --body:#5c5f66;
+    --link:#3b6fe0;
+    --line:#eceae4;
+    --bg:#ffffff;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--body);
+    font-family:'Outfit', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+    display:flex;
+    justify-content:center;
+  }
+  .container{
+    max-width:560px;
+    width:100%;
+    padding:64px 32px 120px;
+  }
+  @media (max-width:640px){
+    .container{ padding:40px 22px 90px; }
+  }
+
+  a{ color:var(--ink); text-decoration:underline; text-underline-offset:2px; }
+  a:hover{ color:#1c85d4; }
+
+  nav{ margin-bottom:44px; }
+  nav a{ margin-right:22px; font-size:15.5px; }
+  nav a:last-child{ margin-right:0; }
+
+  h1{
+    font-family:'Outfit', sans-serif;
+    font-weight:800;
+    font-size:40px;
+    color:var(--ink);
+    margin:0 0 26px;
+    letter-spacing:-0.01em;
+    line-height:1.15;
+  }
+
+  p{ margin:0 0 26px; color:var(--body); }
+  p strong{ color:var(--ink); font-weight:600; }
+  .tight p{ margin-bottom:2px; }
+
+  .role-block{ margin-bottom:26px; }
+  .role-line{
+    color:var(--ink);
+    font-weight:600;
+    font-size:16.5px;
+    margin-bottom:2px;
+  }
+  .role-meta{
+    color:#8b8e94;
+    font-size:14px;
+    margin-bottom:10px;
+  }
+  .role-bullets{
+    margin:0 0 4px;
+    padding-left:18px;
+  }
+  .role-bullets li{
+    color:var(--body);
+    margin-bottom:6px;
+    line-height:1.6;
+  }
+
+  .section-label{
+    color:var(--ink);
+    font-weight:600;
+    margin:0 0 18px;
+  }
+
+  footer{ margin-top:8px; }
+  footer p{ margin-bottom:0; color:var(--body); }
+
+  .physics-line{
+    height:2px;
+    background:var(--ink);
+    opacity:.55;
+    width:100%;
+    margin:0 0 26px;
+  }
+  .src-letter{ display:inline-block; white-space:pre; }
+  #physics-layer{
+    position:absolute;
+    top:0; left:0; width:1px; height:1px;
+    pointer-events:none;
+    z-index:50;
+  }
+  .phys-letter{
+    position:absolute;
+    top:0; left:0;
+    display:inline-block;
+    white-space:pre;
+    pointer-events:none;
+    user-select:none;
+    will-change:transform;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <nav>
+    <a href="mailto:zainab19604khalil@gmail.com">email</a><a href="https://github.com/zk19604" target="_blank" rel="noopener">github</a><a href="https://www.linkedin.com/in/zainab-khalil-332b1831b/" target="_blank" rel="noopener">linkedin</a>
+  </nav>
+
+  <h1 id="fall-heading">hi, i'm zainab khalil.</h1>
+
+  <p id="fall-subhead">full-stack software engineer.</p>
+
+  <div id="ground-line" class="physics-line"></div>
+
+  <p>i'm a cs senior at fast, nuces, lahore, 3.78 cgpa (not that it matters anymore). before that i did my a-levels in 2023 and got 4 A*s, including 3rd position in punjab for best across 3 a-level subjects (probably the last time i was happy before cs took the light out of my eyes). in o-levels i got a distinction too, best in biology in pakistan.</p>
+
+  <p>somewhere in between i also ta'd a database course at fast for 50+ students, grading quizzes and trying to make normalization sound less like a punishment. mostly it worked.</p>
+
+  <p class="section-label">experience.</p>
+
+  <div class="role-block">
+    <div class="role-line">software engineer intern, aice xpert</div>
+    <div class="role-meta">jan 2026 – may 2026 · pakistan</div>
+    <ul class="role-bullets">
+      <li>scaled a live b2b saas platform to 5k+ professionals building full-stack features with next.js, express, and supabase.</li>
+      <li>built a real-time phone preview system with dynamic qr rendering across 20+ styles, gradients, and custom logos.</li>
+      <li>put together an analytics pipeline tracking taps, geo-location, devices, and clicks to support product growth.</li>
+      <li>shipped 10+ rest apis connecting frontend and backend in an agile team.</li>
+    </ul>
+  </div>
+
+  <div class="role-block">
+    <div class="role-line">software engineer intern, infotech</div>
+    <div class="role-meta">jul 2025 – aug 2025 · lahore, pakistan</div>
+    <ul class="role-bullets">
+      <li>architected 5+ microservices in spring boot following solid principles and clean architecture.</li>
+      <li>wired up service discovery with netflix eureka for dynamic routing and fault-tolerant communication.</li>
+      <li>built an api gateway to centralize 10+ endpoints without anything catching fire.</li>
+    </ul>
+  </div>
+
+  <p>lately i've been on a hackathon kick. for an openai hackathon i built <a href="https://github.com/zk19604/or-bit" target="_blank" rel="noopener">or-bit</a>, a multi-tenant workflow builder where teams compose trigger/action node graphs, run them as durable jobs, and watch a stagehand-driven browser execute live. <a href="https://or-bit-production.up.railway.app" target="_blank" rel="noopener">demo here</a>.</p>
+
+  <p>then <a href="https://github.com/zk19604/deflake" target="_blank" rel="noopener">deflake</a>, an agentic service that samples a failing pytest, digs up the root cause with graph-based tool use, proposes a fix, sandbox-verifies it, and opens the pr itself. built on langgraph, fastapi, and pgvector, because apparently i trust an agent to fix code more than i trust myself at 3am.</p>
+
+  <p>also built a <a href="https://github.com/zk19604/developer-saas" target="_blank" rel="noopener">rate-limited developer saas platform</a>: a metered api gateway with dual auth (jwt plus hashed api keys), per-plan rate limiting through atomic redis lua scripts, async request logging on a bullmq worker, a live websocket feed, and a graphql analytics endpoint, all sitting in docker compose.</p>
+
+  <p>and <a href="https://github.com/zk19604/resuflow" target="_blank" rel="noopener">resuflow</a>, an end-to-end pipeline that turns a messy cv into a deployed portfolio site. gemini api pulls structured json out of free-form text, vercel's api handles the one-click deploy, and it spits out a scannable qr code at the end. <a href="https://resuflow-three.vercel.app" target="_blank" rel="noopener">demo here</a>.</p>
+
+  <p>jack of all trades is a master of none - but often times better than a master of one so also made more stuff, diversifying my stack. built a <a href="https://github.com/zk19604/research-paper-analyser" target="_blank" rel="noopener">rag-based reading assistant</a> for academic pdfs with hybrid dense and sparse retrieval and auto-generated cross-paper knowledge graphs, shipped a solo <a href="https://github.com/zk19604/home-service-app" target="_blank" rel="noopener">android housing app</a> in java with firebase auth and gemini-powered search, put together a <a href="https://github.com/zk19604/dropthedb" target="_blank" rel="noopener">mood-based music recommender</a> with a 3-person team that auto-adds spotify songs to your playlist depending on how you're feeling, and before any of that, wrote a working <a href="https://github.com/zk19604/sudoku-game" target="_blank" rel="noopener">sudoku game</a> in x86 8088 assembly because apparently manipulating video memory by hand builds character.</p>
+
+  <div class="tight">
+    <p>some of it worked.</p>
+    <p>most of it taught me something anyway.</p>
+  </div>
+
+  <br/>
+  <p>also, over the summer of '26 i picked up a new hobby: making portfolios. people hoard shoes or vinyl records, i hoard portfolio sites (this one's a blog style portfolio - just in case you were curious). <a href="https://zk19604.github.io/portfolio/" target="_blank" rel="noopener">professional</a>, <a href="https://zk19604-portfolio.vercel.app/" target="_blank" rel="noopener">minimalistic</a>, <a href="https://portfolio-2-rho.vercel.app/" target="_blank" rel="noopener">artsy</a>, and <a href="https://portfolio-3d-nu-six.vercel.app/" target="_blank" rel="noopener">3d</a>.disclaimer - not all of them are updated</p>
+
+  <p>the stack, roughly: python, typescript, javascript, java, c++, and sql on the language side, postgres, mongodb, redis, firebase, and supabase for data, react, next.js, node, express, fastify, and spring boot for building, docker and vercel for shipping it, plus the usual git, postman, graphql, and websockets underneath.</p>
+
+  <img src="Untitled design (1).png" alt="" style="display:block; width:100%; margin:40px 0; border-radius:8px;">
+
+  <footer>
+    <p>p.s: if you wanna reach out, email me at <a href="mailto:zainab19604khalil@gmail.com">zainab19604khalil@gmail.com</a>, or find me on <a href="https://github.com/zk19604" target="_blank" rel="noopener">github</a> and <a href="https://www.linkedin.com/in/zainab-khalil-332b1831b/" target="_blank" rel="noopener">linkedin</a>. </p>
+  </footer>
+
+</div>
+
+<div id="physics-layer"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/matter-js@0.19.0/build/matter.min.js"></script>
+<script>
+(function(){
+  function splitLetters(el){
+    var text = el.textContent;
+    el.textContent = '';
+    var spans = [];
+    for (var i=0; i<text.length; i++){
+      var s = document.createElement('span');
+      s.className = 'src-letter';
+      s.textContent = text[i];
+      el.appendChild(s);
+      spans.push(s);
+    }
+    return spans;
+  }
+
+  var heading = document.getElementById('fall-heading');
+  var subhead = document.getElementById('fall-subhead');
+  var groundLine = document.getElementById('ground-line');
+  var layer = document.getElementById('physics-layer');
+
+  var letters = splitLetters(heading).concat(splitLetters(subhead));
+  var fired = false;
+  var items = [];
+  var mouseX = -9999, mouseY = -9999;
+  var loopRunning = false;
+  var wakeLoop = function(){};
+
+  function triggerFall(){
+    if (fired) return;
+    fired = true;
+
+    var Engine = Matter.Engine, World = Matter.World, Bodies = Matter.Bodies, Body = Matter.Body;
+
+    var engine = Engine.create();
+    engine.world.gravity.y = 1;
+    engine.enableSleeping = true;
+
+    var scrollY = window.scrollY;
+    var scrollX = window.scrollX;
+    var groundRect = groundLine.getBoundingClientRect();
+    var docHeight = document.documentElement.scrollHeight;
+    var docWidth = document.documentElement.clientWidth;
+
+    var ground = Bodies.rectangle(
+      groundRect.left + scrollX + groundRect.width/2,
+      groundRect.top + scrollY + groundRect.height/2,
+      groundRect.width, 6, { isStatic:true }
+    );
+    var floor = Bodies.rectangle(
+      docWidth/2, docHeight - 10, docWidth*2, 20, { isStatic:true }
+    );
+    var leftWall = Bodies.rectangle(-10, docHeight/2, 20, docHeight*2, { isStatic:true });
+    var rightWall = Bodies.rectangle(docWidth+10, docHeight/2, 20, docHeight*2, { isStatic:true });
+    World.add(engine.world, [ground, floor, leftWall, rightWall]);
+
+    letters.forEach(function(letter){
+      var rect = letter.getBoundingClientRect();
+      var cs = getComputedStyle(letter);
+      if (rect.width === 0){ letter.style.opacity = '0'; return; }
+
+      var clone = document.createElement('span');
+      clone.className = 'phys-letter';
+      clone.textContent = letter.textContent;
+      clone.style.fontFamily = cs.fontFamily;
+      clone.style.fontSize = cs.fontSize;
+      clone.style.fontWeight = cs.fontWeight;
+      clone.style.color = cs.color;
+      clone.style.lineHeight = cs.lineHeight;
+      layer.appendChild(clone);
+
+      var x = rect.left + scrollX + rect.width/2;
+      var y = rect.top + scrollY + rect.height/2;
+      var body = Bodies.rectangle(x, y, rect.width, rect.height, {
+        restitution: 0.35,
+        friction: 0.6,
+        frictionAir: 0.012
+      });
+      Body.setAngularVelocity(body, (Math.random()-0.5)*0.15);
+      World.add(engine.world, body);
+
+      letter.style.opacity = '0';
+      items.push({ body:body, el:clone, w:rect.width, h:rect.height });
+    });
+
+    wakeLoop = function(){
+      if (!loopRunning){ loopRunning = true; requestAnimationFrame(loop); }
+    };
+
+    function loop(){
+      // hover repel: nearby letters get pushed away from the cursor, no click needed
+      var anyNearMouse = false;
+      items.forEach(function(it){
+        var dx = it.body.position.x - mouseX;
+        var dy = it.body.position.y - mouseY;
+        var dist = Math.sqrt(dx*dx + dy*dy);
+        var radius = 70;
+        if (dist < radius && dist > 0.01){
+          anyNearMouse = true;
+          var force = (radius - dist) / radius * 0.02;
+          Body.applyForce(it.body, it.body.position, {
+            x: (dx/dist) * force,
+            y: (dy/dist) * force
+          });
+        }
+      });
+      Engine.update(engine, 1000/60);
+      // ponytail: hard-clamp every body inside the document bounds each frame.
+      // repeated applyForce near a resting letter can tunnel it through the floor;
+      // once that happens gravity free-falls it forever, translateY grows unbounded,
+      // and Chrome expands the page's scrollable area to match -> "infinite scroll".
+      items.forEach(function(it){
+        var halfW = it.w/2, halfH = it.h/2;
+        var x = Math.min(Math.max(it.body.position.x, halfW), docWidth - halfW);
+        var y = Math.min(Math.max(it.body.position.y, halfH), docHeight - halfH);
+        if (x !== it.body.position.x || y !== it.body.position.y){
+          Body.setPosition(it.body, { x: x, y: y });
+          Body.setVelocity(it.body, { x: 0, y: 0 });
+        }
+      });
+      var stillSettling = items.some(function(it){ return !it.body.isSleeping; });
+      items.forEach(function(it){
+        it.el.style.transform =
+          'translate(' + (it.body.position.x - it.w/2) + 'px,' +
+          (it.body.position.y - it.h/2) + 'px) rotate(' + it.body.angle + 'rad)';
+      });
+      // ponytail: stop the render loop once everything's asleep and mouse isn't nearby;
+      // resume on demand instead of running requestAnimationFrame forever
+      if (stillSettling || anyNearMouse){
+        requestAnimationFrame(loop);
+      } else {
+        loopRunning = false;
+      }
+    }
+    loopRunning = true;
+    requestAnimationFrame(loop);
+  }
+
+  document.addEventListener('mousemove', function(e){
+    mouseX = e.clientX + window.scrollX;
+    mouseY = e.clientY + window.scrollY;
+    wakeLoop();
+  });
+
+  function checkTrigger(){
+    if (fired) return;
+    var rect = heading.getBoundingClientRect();
+    if (rect.top <= 0) triggerFall();
+  }
+  window.addEventListener('scroll', checkTrigger, { passive:true });
+})();
+</script>
+
+</body>
+</html>
